@@ -1,0 +1,26 @@
+body {
+background-color:orange;}
+h1{
+color: red;
+}
+p{
+  color:green;
+}
+
+.menu{
+background-color: white;
+border-style: solid;
+width:200px;
+}
+
+
+.mydiv1 {background-color:pink;
+  width:500px;
+  height:500px;
+  }
+
+
+img.image{
+  height:500px;
+  width:500px;
+}
