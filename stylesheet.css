@@ -1,26 +1,46 @@
 body {
-background-color:orange;}
+background-color:#D7F0F9;}
 h1{
-color: red;
+color:orange;
 }
 p{
-  color:green;
-}
-
-.menu{
-background-color: white;
-border-style: solid;
-width:200px;
+  color:#DF5796;
 }
 
 
-.mydiv1 {background-color:pink;
-  width:500px;
-  height:500px;
-  }
+ul {
+ list-style: none;
+}
 
+.navbar {
+  overflow: hidden;
+  background-color: #DF5796;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
-img.image{
-  height:500px;
-  width:500px;
+.navbar a {
+  float: left;
+  display: block;
+  color: skyblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #orange;
+  color: #FEC324;
+}
+
+.navbar a.active {
+  background-color: #F0653E;
+  color: white;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
 }
