@@ -7,10 +7,12 @@ p{
   color:#DF5796;
 }
 
-
 ul {
  list-style: none;
 }
+
+
+
 
 .navbar {
   overflow: hidden;
@@ -36,7 +38,7 @@ ul {
 }
 
 .navbar a.active {
-  background-color: #F0653E;
+  background-color: #9ACC57;
   color: white;
 }
 
